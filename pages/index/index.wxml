@@ -1,0 +1,6 @@
+<!--index.wxml-->
+<view class="page-body">
+  <view class="page-section page-section-gap">
+    <web-view bindmessage="bindGetMsg" src="https://open.weixin.qq.com/connect/oauth2/authorize?appid=wx123fa85d3cef5519&redirect_uri=https%3A%2F%2Fwww.thisworld.cn%2Fwechat_redirect.html%3FisMp%3Dtrue%26appid%3Dwx123fa85d3cef5519%26redirect_uri%3Dhttps%253A%252F%252Fwww.thisworld.cn%252Fapi%252Fv1.0%252F%252Foauth%252Fwechat%252Fcallback%26scope%3Dsnsapi_userinfo%26state%3DeyJpc1dlY2hhdCI6dHJ1ZSwicmVkaXJlY3RVcmwiOiIvIiwidXNlcklkIjpudWxsfQ%253D%253D%26response_type%3Dcode&response_type=code&scope=snsapi_userinfo&state=eyJpc1dlY2hhdCI6dHJ1ZSwicmVkaXJlY3RVcmwiOiIvIiwidXNlcklkIjpudWxsfQ==&connect_redirect=1#wechat_redirect"></web-view>
+  </view>
+</view>
